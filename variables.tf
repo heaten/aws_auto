@@ -5,7 +5,7 @@ variable "instance_name" {
 }
 
 variable "instance_type" {
-        default = "t3.micro"
+        default = "t3.xlarge"
 }
 
 variable "subnet_id" {
@@ -25,5 +25,5 @@ variable "number_of_instances" {
 
 
 variable "ami_key_pair_name" {
-        default = "north_ssh_key"
+        default = "lei-north-1"
 }
