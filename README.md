@@ -32,3 +32,17 @@ terraform init
 terraform plan
 terraform apply
 ```
+
+## SSH
+
+ ssh -i "lei-north-1.pem" ubuntu@ec2-13-50-5-112.eu-north-1.compute.amazonaws.com
+
+Replace pem file name and your DNS
+## Install docker
+Follow link:https://docs.docker.com/engine/install/ubuntu/
+
+OR
+
+1. create docker file in ec2: copy ./install_docker/ec2_docker.sh to ec2
+2. chmod 755 ec2_docker.sh
+3. sudo ec2_docker.sh
